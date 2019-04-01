@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+    <line>
+      <![CDATA[Coin details : 20 gram 24 KT Gold Coin]]>
+    </line>
+    <line>
+      <![CDATA[Assertion Passed]]>
+    </line>
+    <line>
+      <![CDATA[Coin details : 50 gram 24 KT Gold Coin]]>
+    </line>
+    <line>
+      <![CDATA[Assertion Passed]]>
+    </line>
+    <line>
+      <![CDATA[Women count : Women (1674)]]>
+    </line>
+    <line>
+      <![CDATA[Main menu is being displayed]]>
+    </line>
+    <line>
+      <![CDATA[10+1 MONTHLY SCHEME]]>
+    </line>
+    <line>
+      <![CDATA[RINGS]]>
+    </line>
+    <line>
+      <![CDATA[EARRINGS]]>
+    </line>
+    <line>
+      <![CDATA[PENDANTS]]>
+    </line>
+    <line>
+      <![CDATA[SOLITAIRES]]>
+    </line>
+    <line>
+      <![CDATA[ALL JEWELLERY]]>
+    </line>
+    <line>
+      <![CDATA[GIFTS]]>
+    </line>
+    <line>
+      <![CDATA[GOLD COINS]]>
+    </line>
+    <line>
+      <![CDATA[NEXT DAY DELIVERY]]>
+    </line>
+    <line>
+      <![CDATA[OFFERS]]>
+    </line>
+    <line>
+      <![CDATA[Coin details : 2 gram 24 KT Lakshmi Gold Coin]]>
+    </line>
+    <line>
+      <![CDATA[Assertion Passed]]>
+    </line>
+    <line>
+      <![CDATA[Errer message is displayed and the message is : Amount is required]]>
+    </line>
+    <line>
+      <![CDATA[Errer message is displayed and the message is : Email is required]]>
+    </line>
+    <line>
+      <![CDATA[Coin details : 5 gram 24 KT Lakshmi Gold Coin]]>
+    </line>
+    <line>
+      <![CDATA[Assertion Passed]]>
+    </line>
+    <line>
+      <![CDATA[Assertion for email id is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Assertion for Amount is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Coin details : 10 gram 24 KT Lakshmi Gold Coin]]>
+    </line>
+    <line>
+      <![CDATA[Assertion Passed]]>
+    </line>
+    <line>
+      <![CDATA[Assertion for email id is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Assertion for Amount is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Number of rings below Rs 10000 are : (44)]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed and the message is : Amount is required]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed and the message is : Email is required]]>
+    </line>
+    <line>
+      <![CDATA[Next Day Delivery (122)]]>
+    </line>
+    <line>
+      <![CDATA[Assertion is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Platinum Rings : (47)]]>
+    </line>
+    <line>
+      <![CDATA[Total number of stores : 6]]>
+    </line>
+    <line>
+      <![CDATA[Store location 1 : New Delhi]]>
+    </line>
+    <line>
+      <![CDATA[Store location 2 : Chennai]]>
+    </line>
+    <line>
+      <![CDATA[Store location 3 : Chandigarh]]>
+    </line>
+    <line>
+      <![CDATA[Store location 4 : Mumbai]]>
+    </line>
+    <line>
+      <![CDATA[Store location 5 : Mohali]]>
+    </line>
+    <line>
+      <![CDATA[Store location 6 : Hyderabad]]>
+    </line>
+    <line>
+      <![CDATA[gold coin : 22k (126)]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="638338" started-at="2019-04-01T15:07:21Z" finished-at="2019-04-01T15:17:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="638338" started-at="2019-04-01T15:07:21Z" finished-at="2019-04-01T15:17:59Z">
+      <class name="scripts.Assignment4">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment4@75bd9247]" name="openApplication" is-config="true" duration-ms="3964" started-at="2019-04-01T15:11:44Z" finished-at="2019-04-01T15:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario4()[pri:0, instance:scripts.Assignment4@75bd9247]" name="scenario4" duration-ms="24930" started-at="2019-04-01T15:11:48Z" finished-at="2019-04-01T15:12:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Coin details : 5 gram 24 KT Lakshmi Gold Coin]]>
+            </line>
+            <line>
+              <![CDATA[Assertion Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario4 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment4@75bd9247]" name="closeApplication" is-config="true" duration-ms="1491" started-at="2019-04-01T15:12:13Z" finished-at="2019-04-01T15:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario4 status=SUCCESS method=Assignment4.scenario4()[pri:0, instance:scripts.Assignment4@75bd9247] output=Coin details : 5 gram 24 KT Lakshmi Gold Coin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment4 -->
+      <class name="scripts.Assignment12">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment12@4cdbe50f]" name="openApplication" is-config="true" duration-ms="3747" started-at="2019-04-01T15:11:18Z" finished-at="2019-04-01T15:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario12()[pri:0, instance:scripts.Assignment12@4cdbe50f]" name="scenario12" duration-ms="21773" started-at="2019-04-01T15:11:22Z" finished-at="2019-04-01T15:11:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Errer message is displayed and the message is : Amount is required]]>
+            </line>
+            <line>
+              <![CDATA[Errer message is displayed and the message is : Email is required]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario12 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment12@4cdbe50f]" name="closeApplication" is-config="true" duration-ms="608" started-at="2019-04-01T15:11:44Z" finished-at="2019-04-01T15:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario12 status=SUCCESS method=Assignment12.scenario12()[pri:0, instance:scripts.Assignment12@4cdbe50f] output=Errer message is displayed and the message is : Amount is required]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment12 -->
+      <class name="scripts.Assignment13">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment13@66d33a]" name="openApplication" is-config="true" duration-ms="3831" started-at="2019-04-01T15:12:15Z" finished-at="2019-04-01T15:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario13()[pri:0, instance:scripts.Assignment13@66d33a]" name="scenario13" duration-ms="23756" started-at="2019-04-01T15:12:18Z" finished-at="2019-04-01T15:12:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Assertion for email id is Passed]]>
+            </line>
+            <line>
+              <![CDATA[Assertion for Amount is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario13 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment13@66d33a]" name="closeApplication" is-config="true" duration-ms="510" started-at="2019-04-01T15:12:42Z" finished-at="2019-04-01T15:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario13 status=SUCCESS method=Assignment13.scenario13()[pri:0, instance:scripts.Assignment13@66d33a] output=Assertion for email id is Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment13 -->
+      <class name="scripts.Assignment3">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment3@3f0ee7cb]" name="openApplication" is-config="true" duration-ms="3672" started-at="2019-04-01T15:10:52Z" finished-at="2019-04-01T15:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario3()[pri:0, instance:scripts.Assignment3@3f0ee7cb]" name="scenario3" duration-ms="22039" started-at="2019-04-01T15:10:55Z" finished-at="2019-04-01T15:11:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Coin details : 2 gram 24 KT Lakshmi Gold Coin]]>
+            </line>
+            <line>
+              <![CDATA[Assertion Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario3 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment3@3f0ee7cb]" name="closeApplication" is-config="true" duration-ms="832" started-at="2019-04-01T15:11:17Z" finished-at="2019-04-01T15:11:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario3 status=SUCCESS method=Assignment3.scenario3()[pri:0, instance:scripts.Assignment3@3f0ee7cb] output=Coin details : 2 gram 24 KT Lakshmi Gold Coin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment3 -->
+      <class name="scripts.Assignment14">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment14@7cf10a6f]" name="openApplication" is-config="true" duration-ms="3940" started-at="2019-04-01T15:13:07Z" finished-at="2019-04-01T15:13:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario14()[pri:0, instance:scripts.Assignment14@7cf10a6f]" name="scenario14" duration-ms="24821" started-at="2019-04-01T15:13:11Z" finished-at="2019-04-01T15:13:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Assertion for email id is Passed]]>
+            </line>
+            <line>
+              <![CDATA[Assertion for Amount is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario14 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment14@7cf10a6f]" name="closeApplication" is-config="true" duration-ms="499" started-at="2019-04-01T15:13:36Z" finished-at="2019-04-01T15:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario14 status=SUCCESS method=Assignment14.scenario14()[pri:0, instance:scripts.Assignment14@7cf10a6f] output=Assertion for email id is Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment14 -->
+      <class name="scripts.Assignment6">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment6@7dc36524]" name="openApplication" is-config="true" duration-ms="3819" started-at="2019-04-01T15:13:36Z" finished-at="2019-04-01T15:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario6()[pri:0, instance:scripts.Assignment6@7dc36524]" name="scenario6" duration-ms="55546" started-at="2019-04-01T15:13:40Z" finished-at="2019-04-01T15:14:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Number of rings below Rs 10000 are : (44)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario6 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment6@7dc36524]" name="closeApplication" is-config="true" duration-ms="2817" started-at="2019-04-01T15:14:36Z" finished-at="2019-04-01T15:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario6 status=SUCCESS method=Assignment6.scenario6()[pri:0, instance:scripts.Assignment6@7dc36524] output=Number of rings below Rs 10000 are : (44)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment6 -->
+      <class name="scripts.Assignment15">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment15@7e0babb1]" name="openApplication" is-config="true" duration-ms="4013" started-at="2019-04-01T15:14:38Z" finished-at="2019-04-01T15:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario15()[pri:0, instance:scripts.Assignment15@7e0babb1]" name="scenario15" duration-ms="22105" started-at="2019-04-01T15:14:42Z" finished-at="2019-04-01T15:15:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message is displayed and the message is : Amount is required]]>
+            </line>
+            <line>
+              <![CDATA[Error message is displayed and the message is : Email is required]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario15 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment15@7e0babb1]" name="closeApplication" is-config="true" duration-ms="493" started-at="2019-04-01T15:15:04Z" finished-at="2019-04-01T15:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario15 status=SUCCESS method=Assignment15.scenario15()[pri:0, instance:scripts.Assignment15@7e0babb1] output=Error message is displayed and the message is : Amount is required]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment15 -->
+      <class name="scripts.Assignment5">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment5@7d417077]" name="openApplication" is-config="true" duration-ms="3651" started-at="2019-04-01T15:12:43Z" finished-at="2019-04-01T15:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario5()[pri:0, instance:scripts.Assignment5@7d417077]" name="scenario5" duration-ms="19970" started-at="2019-04-01T15:12:46Z" finished-at="2019-04-01T15:13:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Coin details : 10 gram 24 KT Lakshmi Gold Coin]]>
+            </line>
+            <line>
+              <![CDATA[Assertion Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario5 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment5@7d417077]" name="closeApplication" is-config="true" duration-ms="586" started-at="2019-04-01T15:13:06Z" finished-at="2019-04-01T15:13:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario5 status=SUCCESS method=Assignment5.scenario5()[pri:0, instance:scripts.Assignment5@7d417077] output=Coin details : 10 gram 24 KT Lakshmi Gold Coin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment5 -->
+      <class name="scripts.Assignment8">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment8@2c8d66b2]" name="openApplication" is-config="true" duration-ms="3727" started-at="2019-04-01T15:16:16Z" finished-at="2019-04-01T15:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario8()[pri:0, instance:scripts.Assignment8@2c8d66b2]" name="scenario8" duration-ms="36836" started-at="2019-04-01T15:16:20Z" finished-at="2019-04-01T15:16:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Platinum Rings : (47)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario8 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment8@2c8d66b2]" name="closeApplication" is-config="true" duration-ms="2766" started-at="2019-04-01T15:16:56Z" finished-at="2019-04-01T15:16:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario8 status=SUCCESS method=Assignment8.scenario8()[pri:0, instance:scripts.Assignment8@2c8d66b2] output=Platinum Rings : (47)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment8 -->
+      <class name="scripts.Assignment20">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment20@c818063]" name="openApplication" is-config="true" duration-ms="3816" started-at="2019-04-01T15:08:57Z" finished-at="2019-04-01T15:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario20()[pri:0, instance:scripts.Assignment20@c818063]" name="scenario20" duration-ms="90108" started-at="2019-04-01T15:09:01Z" finished-at="2019-04-01T15:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario20 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment20@c818063]" name="closeApplication" is-config="true" duration-ms="435" started-at="2019-04-01T15:10:31Z" finished-at="2019-04-01T15:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario20 status=SUCCESS method=Assignment20.scenario20()[pri:0, instance:scripts.Assignment20@c818063] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment20 -->
+      <class name="scripts.Assignment7">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment7@35bbe5e8]" name="openApplication" is-config="true" duration-ms="3882" started-at="2019-04-01T15:15:05Z" finished-at="2019-04-01T15:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario7()[pri:0, instance:scripts.Assignment7@35bbe5e8]" name="scenario7" duration-ms="29113" started-at="2019-04-01T15:15:09Z" finished-at="2019-04-01T15:15:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Next Day Delivery (122)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario7 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment7@35bbe5e8]" name="closeApplication" is-config="true" duration-ms="1025" started-at="2019-04-01T15:15:38Z" finished-at="2019-04-01T15:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario7 status=SUCCESS method=Assignment7.scenario7()[pri:0, instance:scripts.Assignment7@35bbe5e8] output=Next Day Delivery (122)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment7 -->
+      <class name="scripts.Assignment10">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment10@1fbc7afb]" name="openApplication" is-config="true" duration-ms="3853" started-at="2019-04-01T15:08:23Z" finished-at="2019-04-01T15:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario10()[pri:0, instance:scripts.Assignment10@1fbc7afb]" name="scenario10" duration-ms="27875" started-at="2019-04-01T15:08:27Z" finished-at="2019-04-01T15:08:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Women count : Women (1674)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario10 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment10@1fbc7afb]" name="closeApplication" is-config="true" duration-ms="2714" started-at="2019-04-01T15:08:55Z" finished-at="2019-04-01T15:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario10 status=SUCCESS method=Assignment10.scenario10()[pri:0, instance:scripts.Assignment10@1fbc7afb] output=Women count : Women (1674)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment10 -->
+      <class name="scripts.Assignment11">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment11@45c8e616]" name="openApplication" is-config="true" duration-ms="3869" started-at="2019-04-01T15:10:32Z" finished-at="2019-04-01T15:10:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario11()[pri:0, instance:scripts.Assignment11@45c8e616]" name="scenario11" duration-ms="15403" started-at="2019-04-01T15:10:36Z" finished-at="2019-04-01T15:10:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Main menu is being displayed]]>
+            </line>
+            <line>
+              <![CDATA[10+1 MONTHLY SCHEME]]>
+            </line>
+            <line>
+              <![CDATA[RINGS]]>
+            </line>
+            <line>
+              <![CDATA[EARRINGS]]>
+            </line>
+            <line>
+              <![CDATA[PENDANTS]]>
+            </line>
+            <line>
+              <![CDATA[SOLITAIRES]]>
+            </line>
+            <line>
+              <![CDATA[ALL JEWELLERY]]>
+            </line>
+            <line>
+              <![CDATA[GIFTS]]>
+            </line>
+            <line>
+              <![CDATA[GOLD COINS]]>
+            </line>
+            <line>
+              <![CDATA[NEXT DAY DELIVERY]]>
+            </line>
+            <line>
+              <![CDATA[OFFERS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario11 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment11@45c8e616]" name="closeApplication" is-config="true" duration-ms="540" started-at="2019-04-01T15:10:51Z" finished-at="2019-04-01T15:10:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario11 status=SUCCESS method=Assignment11.scenario11()[pri:0, instance:scripts.Assignment11@45c8e616] output=Main menu is being displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment11 -->
+      <class name="scripts.Assignment9">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment9@5a39699c]" name="openApplication" is-config="true" duration-ms="3922" started-at="2019-04-01T15:17:25Z" finished-at="2019-04-01T15:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario9()[pri:0, instance:scripts.Assignment9@5a39699c]" name="scenario9" duration-ms="26984" started-at="2019-04-01T15:17:29Z" finished-at="2019-04-01T15:17:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[gold coin : 22k (126)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario9 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment9@5a39699c]" name="closeApplication" is-config="true" duration-ms="2850" started-at="2019-04-01T15:17:56Z" finished-at="2019-04-01T15:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario9 status=SUCCESS method=Assignment9.scenario9()[pri:0, instance:scripts.Assignment9@5a39699c] output=gold coin : 22k (126)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment9 -->
+      <class name="scripts.Assignment16">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment16@6debcae2]" name="openApplication" is-config="true" duration-ms="3828" started-at="2019-04-01T15:15:39Z" finished-at="2019-04-01T15:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario16()[pri:0, instance:scripts.Assignment16@6debcae2]" name="scenario16" duration-ms="32530" started-at="2019-04-01T15:15:43Z" finished-at="2019-04-01T15:16:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Assertion is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario16 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment16@6debcae2]" name="closeApplication" is-config="true" duration-ms="456" started-at="2019-04-01T15:16:15Z" finished-at="2019-04-01T15:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario16 status=SUCCESS method=Assignment16.scenario16()[pri:0, instance:scripts.Assignment16@6debcae2] output=Assertion is Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment16 -->
+      <class name="scripts.Assignment17">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment17@5ba23b66]" name="openApplication" is-config="true" duration-ms="3595" started-at="2019-04-01T15:16:59Z" finished-at="2019-04-01T15:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario17()[pri:0, instance:scripts.Assignment17@5ba23b66]" name="scenario17" duration-ms="22083" started-at="2019-04-01T15:17:03Z" finished-at="2019-04-01T15:17:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total number of stores : 6]]>
+            </line>
+            <line>
+              <![CDATA[Store location 1 : New Delhi]]>
+            </line>
+            <line>
+              <![CDATA[Store location 2 : Chennai]]>
+            </line>
+            <line>
+              <![CDATA[Store location 3 : Chandigarh]]>
+            </line>
+            <line>
+              <![CDATA[Store location 4 : Mumbai]]>
+            </line>
+            <line>
+              <![CDATA[Store location 5 : Mohali]]>
+            </line>
+            <line>
+              <![CDATA[Store location 6 : Hyderabad]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario17 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment17@5ba23b66]" name="closeApplication" is-config="true" duration-ms="543" started-at="2019-04-01T15:17:25Z" finished-at="2019-04-01T15:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario17 status=SUCCESS method=Assignment17.scenario17()[pri:0, instance:scripts.Assignment17@5ba23b66] output=Total number of stores : 6]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment17 -->
+      <class name="scripts.Assignment2">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment2@2ff4f00f]" name="openApplication" is-config="true" duration-ms="3817" started-at="2019-04-01T15:07:59Z" finished-at="2019-04-01T15:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario2()[pri:0, instance:scripts.Assignment2@2ff4f00f]" name="scenario2" duration-ms="19545" started-at="2019-04-01T15:08:03Z" finished-at="2019-04-01T15:08:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Coin details : 50 gram 24 KT Gold Coin]]>
+            </line>
+            <line>
+              <![CDATA[Assertion Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment2@2ff4f00f]" name="closeApplication" is-config="true" duration-ms="744" started-at="2019-04-01T15:08:22Z" finished-at="2019-04-01T15:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario2 status=SUCCESS method=Assignment2.scenario2()[pri:0, instance:scripts.Assignment2@2ff4f00f] output=Coin details : 50 gram 24 KT Gold Coin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment2 -->
+      <class name="scripts.Assignment1">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.Assignment1@5e025e70]" name="openApplication" is-config="true" duration-ms="16568" started-at="2019-04-01T15:07:21Z" finished-at="2019-04-01T15:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="scenario1()[pri:0, instance:scripts.Assignment1@5e025e70]" name="scenario1" duration-ms="19497" started-at="2019-04-01T15:07:37Z" finished-at="2019-04-01T15:07:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Coin details : 20 gram 24 KT Gold Coin]]>
+            </line>
+            <line>
+              <![CDATA[Assertion Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.Assignment1@5e025e70]" name="closeApplication" is-config="true" duration-ms="1965" started-at="2019-04-01T15:07:57Z" finished-at="2019-04-01T15:07:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=Assignment1.scenario1()[pri:0, instance:scripts.Assignment1@5e025e70] output=Coin details : 20 gram 24 KT Gold Coin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Assignment1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Shiv\git\AssignmentFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment1" hash-for-method="scenario1">scenario1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment10" hash-for-method="scenario10">scenario10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment11" hash-for-method="scenario11">scenario11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment12" hash-for-method="scenario12">scenario12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment13" hash-for-method="scenario13">scenario13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment14" hash-for-method="scenario14">scenario14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment15" hash-for-method="scenario15">scenario15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment16" hash-for-method="scenario16">scenario16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment17" hash-for-method="scenario17">scenario17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment2" hash-for-method="scenario2">scenario2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment20" hash-for-method="scenario20">scenario20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment3" hash-for-method="scenario3">scenario3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment4" hash-for-method="scenario4">scenario4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment5" hash-for-method="scenario5">scenario5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment6" hash-for-method="scenario6">scenario6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment7" hash-for-method="scenario7">scenario7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment8" hash-for-method="scenario8">scenario8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.Assignment9" hash-for-method="scenario9">scenario9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment20</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario20">
+                  </a> <!-- scenario20 -->
+                  <span class="method-name">scenario20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment11</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario11">
+                  </a> <!-- scenario11 -->
+                  <span class="method-name">scenario11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario6">
+                  </a> <!-- scenario6 -->
+                  <span class="method-name">scenario6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario7">
+                  </a> <!-- scenario7 -->
+                  <span class="method-name">scenario7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario4">
+                  </a> <!-- scenario4 -->
+                  <span class="method-name">scenario4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment17</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario17">
+                  </a> <!-- scenario17 -->
+                  <span class="method-name">scenario17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario10">
+                  </a> <!-- scenario10 -->
+                  <span class="method-name">scenario10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment14</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario14">
+                  </a> <!-- scenario14 -->
+                  <span class="method-name">scenario14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario9">
+                  </a> <!-- scenario9 -->
+                  <span class="method-name">scenario9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario12">
+                  </a> <!-- scenario12 -->
+                  <span class="method-name">scenario12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario8">
+                  </a> <!-- scenario8 -->
+                  <span class="method-name">scenario8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario13">
+                  </a> <!-- scenario13 -->
+                  <span class="method-name">scenario13</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment16</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario16">
+                  </a> <!-- scenario16 -->
+                  <span class="method-name">scenario16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario2">
+                  </a> <!-- scenario2 -->
+                  <span class="method-name">scenario2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario1">
+                  </a> <!-- scenario1 -->
+                  <span class="method-name">scenario1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario3">
+                  </a> <!-- scenario3 -->
+                  <span class="method-name">scenario3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment15</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario15">
+                  </a> <!-- scenario15 -->
+                  <span class="method-name">scenario15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.Assignment5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scenario5">
+                  </a> <!-- scenario5 -->
+                  <span class="method-name">scenario5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shiv\git\AssignmentFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;scripts&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scripts.Assignment1&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment10&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment11&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment12&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment13&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment14&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment15&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment16&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment17&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment18&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment19&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment2&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment20&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment3&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment4&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment5&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment6&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment7&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment8&quot;/&gt;
+      &lt;class name=&quot;scripts.Assignment9&quot;/&gt;
+      &lt;class name=&quot;scripts.BaseClassChrome&quot;/&gt;
+      &lt;class name=&quot;scripts.ExtentReportDemo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (22 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'scenario20')
+data.setCell(0, 2, 'scripts.Assignment20')
+data.setCell(0, 3, 90108);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'scenario6')
+data.setCell(1, 2, 'scripts.Assignment6')
+data.setCell(1, 3, 55546);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'scenario8')
+data.setCell(2, 2, 'scripts.Assignment8')
+data.setCell(2, 3, 36836);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'scenario16')
+data.setCell(3, 2, 'scripts.Assignment16')
+data.setCell(3, 3, 32530);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'scenario7')
+data.setCell(4, 2, 'scripts.Assignment7')
+data.setCell(4, 3, 29113);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'scenario10')
+data.setCell(5, 2, 'scripts.Assignment10')
+data.setCell(5, 3, 27875);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'scenario9')
+data.setCell(6, 2, 'scripts.Assignment9')
+data.setCell(6, 3, 26984);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'scenario4')
+data.setCell(7, 2, 'scripts.Assignment4')
+data.setCell(7, 3, 24930);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'scenario14')
+data.setCell(8, 2, 'scripts.Assignment14')
+data.setCell(8, 3, 24821);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'scenario13')
+data.setCell(9, 2, 'scripts.Assignment13')
+data.setCell(9, 3, 23756);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'scenario15')
+data.setCell(10, 2, 'scripts.Assignment15')
+data.setCell(10, 3, 22105);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'scenario17')
+data.setCell(11, 2, 'scripts.Assignment17')
+data.setCell(11, 3, 22083);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'scenario3')
+data.setCell(12, 2, 'scripts.Assignment3')
+data.setCell(12, 3, 22039);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'scenario12')
+data.setCell(13, 2, 'scripts.Assignment12')
+data.setCell(13, 3, 21773);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'scenario5')
+data.setCell(14, 2, 'scripts.Assignment5')
+data.setCell(14, 3, 19970);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'scenario2')
+data.setCell(15, 2, 'scripts.Assignment2')
+data.setCell(15, 3, 19545);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'scenario1')
+data.setCell(16, 2, 'scripts.Assignment1')
+data.setCell(16, 3, 19497);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'scenario11')
+data.setCell(17, 2, 'scripts.Assignment11')
+data.setCell(17, 3, 15403);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Coin details : 50 gram 24 KT Gold Coin</span>
+                <span class="reporter-method-output">Assertion Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario13</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Assertion for email id is Passed</span>
+                <span class="reporter-method-output">Assertion for Amount is Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario15</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Error message is displayed and the message is : Amount is required</span>
+                <span class="reporter-method-output">Error message is displayed and the message is : Email is required</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario7</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Next Day Delivery (122)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Coin details : 5 gram 24 KT Lakshmi Gold Coin</span>
+                <span class="reporter-method-output">Assertion Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Coin details : 20 gram 24 KT Gold Coin</span>
+                <span class="reporter-method-output">Assertion Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Coin details : 2 gram 24 KT Lakshmi Gold Coin</span>
+                <span class="reporter-method-output">Assertion Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario6</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Number of rings below Rs 10000 are : (44)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario12</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Errer message is displayed and the message is : Amount is required</span>
+                <span class="reporter-method-output">Errer message is displayed and the message is : Email is required</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario14</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Assertion for email id is Passed</span>
+                <span class="reporter-method-output">Assertion for Amount is Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario16</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Assertion is Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario17</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total number of stores : 6</span>
+                <span class="reporter-method-output">Store location 1 : New Delhi</span>
+                <span class="reporter-method-output">Store location 2 : Chennai</span>
+                <span class="reporter-method-output">Store location 3 : Chandigarh</span>
+                <span class="reporter-method-output">Store location 4 : Mumbai</span>
+                <span class="reporter-method-output">Store location 5 : Mohali</span>
+                <span class="reporter-method-output">Store location 6 : Hyderabad</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario8</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Platinum Rings : (47)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario10</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Women count : Women (1674)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario5</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Coin details : 10 gram 24 KT Lakshmi Gold Coin</span>
+                <span class="reporter-method-output">Assertion Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario9</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">gold coin : 22k (126)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">scenario11</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Main menu is being displayed</span>
+                <span class="reporter-method-output">10+1 MONTHLY SCHEME</span>
+                <span class="reporter-method-output">RINGS</span>
+                <span class="reporter-method-output">EARRINGS</span>
+                <span class="reporter-method-output">PENDANTS</span>
+                <span class="reporter-method-output">SOLITAIRES</span>
+                <span class="reporter-method-output">ALL JEWELLERY</span>
+                <span class="reporter-method-output">GIFTS</span>
+                <span class="reporter-method-output">GOLD COINS</span>
+                <span class="reporter-method-output">NEXT DAY DELIVERY</span>
+                <span class="reporter-method-output">OFFERS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario1</span>
+                <span class="method-start">16568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario1 status=SUCCESS method=Assignment1.scenario1()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">36069 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">38034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario2</span>
+                <span class="method-start">41851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario2 status=SUCCESS method=Assignment2.scenario2()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">61396 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment10</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">62140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario10</span>
+                <span class="method-start">65993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario10 status=SUCCESS method=Assignment10.scenario10()[pri:0, instance:scripts....)</span>
+                <span class="method-start">93868 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment20</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">96582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario20</span>
+                <span class="method-start">100398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario20 status=SUCCESS method=Assignment20.scenario20()[pri:0, instance:scripts....)</span>
+                <span class="method-start">190506 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment11</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">190941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario11</span>
+                <span class="method-start">194810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario11 status=SUCCESS method=Assignment11.scenario11()[pri:0, instance:scripts....)</span>
+                <span class="method-start">210213 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">210753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario3</span>
+                <span class="method-start">214425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario3 status=SUCCESS method=Assignment3.scenario3()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">236464 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment12</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">237296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario12</span>
+                <span class="method-start">241043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario12 status=SUCCESS method=Assignment12.scenario12()[pri:0, instance:scripts....)</span>
+                <span class="method-start">262816 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment4</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">263424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario4</span>
+                <span class="method-start">267388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario4 status=SUCCESS method=Assignment4.scenario4()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">292318 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment13</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">293809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario13</span>
+                <span class="method-start">297640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario13 status=SUCCESS method=Assignment13.scenario13()[pri:0, instance:scripts....)</span>
+                <span class="method-start">321396 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment5</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">321906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario5</span>
+                <span class="method-start">325557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario5 status=SUCCESS method=Assignment5.scenario5()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">345527 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment14</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">346113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario14</span>
+                <span class="method-start">350053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario14 status=SUCCESS method=Assignment14.scenario14()[pri:0, instance:scripts....)</span>
+                <span class="method-start">374874 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">375373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario6</span>
+                <span class="method-start">379192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario6 status=SUCCESS method=Assignment6.scenario6()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">434738 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment15</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">437555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario15</span>
+                <span class="method-start">441568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario15 status=SUCCESS method=Assignment15.scenario15()[pri:0, instance:scripts....)</span>
+                <span class="method-start">463673 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment7</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">464166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario7</span>
+                <span class="method-start">468048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario7 status=SUCCESS method=Assignment7.scenario7()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">497161 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment16</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">498186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario16</span>
+                <span class="method-start">502014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario16 status=SUCCESS method=Assignment16.scenario16()[pri:0, instance:scripts....)</span>
+                <span class="method-start">534545 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment8</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">535001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario8</span>
+                <span class="method-start">538728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario8 status=SUCCESS method=Assignment8.scenario8()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">575564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment17</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">578330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario17</span>
+                <span class="method-start">581925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario17 status=SUCCESS method=Assignment17.scenario17()[pri:0, instance:scripts....)</span>
+                <span class="method-start">604008 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.Assignment9</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">604551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scenario9</span>
+                <span class="method-start">608473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication([TestResult name=scenario9 status=SUCCESS method=Assignment9.scenario9()[pri:0, instance:scripts.Ass...)</span>
+                <span class="method-start">635457 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
